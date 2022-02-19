@@ -1,0 +1,82 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: cloud-config-center
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:Chenluckly/SpringCloud-config.git
+          default-label: main
+          ignore-local-ssh-settings: true
+          skip-ssl-validation: true
+          search-paths: '*'
+          private-key: |
+            -----BEGIN RSA PRIVATE KEY-----
+            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
+            -----END RSA PRIVATE KEY-----
+eureka:
+  client:
+    service-url:
+      defaultZone:  http://localhost:7001/eureka
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'bus-refresh'
+
+

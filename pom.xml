@@ -29,6 +29,12 @@
         <module>Hystrix/cloud-consumer-hystrix-dashboard9001</module>
         <module>Gateway/cloud-gateway-gateway-9527</module>
         <module>Eureka/cloud-eureka-server7003</module>
+        <module>SpringCloudConfigCenter/cloud-config-center-3344</module>
+        <module>SpringCloudConfigCenter/cloud-config-client-3355</module>
+        <module>SpringCloudConfigCenter/cloud-config-client-3366</module>
+        <module>SpringCloudStream/cloud-stream-rabbitmq-provider8801</module>
+        <module>SpringCloudStream/cloud-stream-rabbitmq-consumer8802</module>
+        <module>SpringCloudStream/cloud-stream-rabbitmq-consumer8803</module>
     </modules>
     <packaging>pom</packaging>
 
