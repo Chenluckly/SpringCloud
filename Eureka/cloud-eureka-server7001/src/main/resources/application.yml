@@ -19,6 +19,9 @@ eureka:
 #    enable-self-preservation: false
 #    eviction-interval-timer-in-ms: 2000
     #Eureka客户端向服务端发送心跳的时间间隔，单位为秒(默认是30秒)
+logging:
+  level:
+    com.netflix: warn
 
 
 
